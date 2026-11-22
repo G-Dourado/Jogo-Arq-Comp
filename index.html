@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudo de Arquitetura Computacional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <h1>Arquitetura Computacional</h1>
+    <nav id="menu">
+      <button data-tela="inicio" class="ativo">Início</button>
+      <button data-tela="glossario">Glossário</button>
+      <button data-tela="cartoes">Cartões</button>
+      <button data-tela="quiz">Quiz</button>
+      <button data-tela="cruzadinha">Cruzadinha</button>
+      <button data-tela="associacao">Associação</button>
+      <button data-tela="progresso">Progresso</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="tela ativa"></section>
+    <section id="glossario" class="tela"></section>
+    <section id="cartoes" class="tela"></section>
+    <section id="quiz" class="tela"></section>
+    <section id="cruzadinha" class="tela"></section>
+    <section id="associacao" class="tela"></section>
+    <section id="progresso" class="tela"></section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
